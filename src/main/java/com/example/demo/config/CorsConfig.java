@@ -19,7 +19,7 @@ public class CorsConfig {
         config.addAllowedOrigin("http://localhost:5173");
 
         // ✅ For production (add later when deployed)
-        config.addAllowedOrigin("https://your-frontend-url.vercel.app");
+        config.addAllowedOrigin("https://neon-biscuit-4fb4d8.netlify.app/");
 
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
